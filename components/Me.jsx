@@ -8,9 +8,9 @@ export function Me({data}){
     <>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#60a5fa" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       <div className="relative flex flex-col items-center bg-blue-400 py-8">
-        <h2 className="text-4xl text-white font-bold mb-4">Sobre mim</h2>
-        <span className="w-48 h-1 bg-white rounded -bottom-2"></span>
-        <section className="max-w-4xl mx-auto bg-gray-50 my-8 p-6 rounded-md flex flex-col md:flex-row shadow-2xl">
+        <h2 className="text-2xl md:text-4xl text-white font-bold mb-4">Sobre mim</h2>
+        <span className="w-32 h-1 bg-white rounded -bottom-2"></span>
+        <section className="max-w-4xl mx-4 bg-gray-50 my-8 p-6 rounded-md flex flex-col md:mx-auto md:flex-row shadow-2xl">
           <div className="flex-1 pr-8 flex flex-col justify-center">
             <h3 className="text-4xl text-gray-700 font-semibold mb-4">Rodrigo Nahid</h3>
             <p className="text-lg font-medium">

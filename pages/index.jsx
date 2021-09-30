@@ -2,6 +2,7 @@ import React from 'react';
 import { Banner } from '../components/Banner';
 import { Header } from '../components/Header';
 import { Me } from '../components/Me';
+import { Projects } from '../components/Projects';
 import { Tecnologies } from '../components/Tecnologies';
 
 export default function Home({data}) {
@@ -12,6 +13,7 @@ export default function Home({data}) {
       <Banner />
       <Tecnologies />
       <Me data={data} />
+      <Projects />
     </div>
   )
 }

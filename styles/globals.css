@@ -5,3 +5,7 @@
 .home-banner .container{
   height: 60vh;
 }
+
+.overflow-x-auto::-webkit-scrollbar{
+  display: none;
+}
