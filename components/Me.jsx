@@ -10,7 +10,7 @@ export function Me({data}){
       <div className="relative flex flex-col items-center bg-blue-400 py-8">
         <h2 className="text-4xl text-white font-bold mb-4">Sobre mim</h2>
         <span className="w-48 h-1 bg-white rounded -bottom-2"></span>
-        <section className="max-w-4xl mx-auto bg-gray-50 my-8 p-6 rounded-md flex shadow-2xl">
+        <section className="max-w-4xl mx-auto bg-gray-50 my-8 p-6 rounded-md flex flex-col md:flex-row shadow-2xl">
           <div className="flex-1 pr-8 flex flex-col justify-center">
             <h3 className="text-4xl text-gray-700 font-semibold mb-4">Rodrigo Nahid</h3>
             <p className="text-lg font-medium">
@@ -24,7 +24,7 @@ export function Me({data}){
               </Link>
             </div>
           </div>
-          <div className="flex-none flex items-center justify-center shadow-md rounded-md">
+          <div className="flex-none flex items-center justify-center rounded-md mt-8 md:shadow-md md:m-0">
             <Image className="rounded-md" src={data.avatar_url} alt={data.login} height={300} width={300} />
           </div>
         </section>
