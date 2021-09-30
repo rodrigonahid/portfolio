@@ -4,7 +4,7 @@ export function Tecnologies() {
     <div className="container mx-auto">
       <div className="flex flex-col items-center">
         <h2 className="relative text-4xl font-bold mb-4">Minhas tecnologias</h2>
-        <span className="w-48 h-1 bg-blue-600 rounded absolute -bottom-2"></span>
+        <span className="w-48 h-1 bg-blue-500 rounded -bottom-2"></span>
       </div>
       <div className="container mx-auto py-16">
         <div className="-m-4 flex flex-wrap justify-center">
