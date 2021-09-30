@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function Header() {
   return(
-    <header className="shadow p-4 relative">
-      <div className="container mx-auto">
+    <header className="shadow relative">
+      <div className="container p-4 mx-auto max-w-5xl">
         <Link href="/">
           <a className="inline-flex items-center">
             <svg width="28px" height="28px" enableBackground="new 0 0 522.468 522.469" version="1.1" viewBox="0 0 522.468 522.469" xmlSpace="preserve" xmlns="http://www.w3.org/2000/svg">

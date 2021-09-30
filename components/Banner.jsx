@@ -5,7 +5,7 @@ export function Banner(){
   return(
     <section>
       <div className="bg-blue-400 home-banner">
-        <div className="container mx-auto flex items-center">
+        <div className="container mx-auto p-4 max-w-5xl flex items-center">
           <div className="flex-1">
             <h1 className="text-white text-4xl font-bold">Oi, eu sou o Rodrigo,<br/> desenvolvedor front-end!</h1>
             <p className="mt-4 text-white text-2xl font-medium">E seja bem-vindo ao meu portfolio.</p>
