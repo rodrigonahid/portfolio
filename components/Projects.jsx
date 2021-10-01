@@ -4,7 +4,6 @@ import Link from "next/link";
 import ExternalImg from "/public/external.svg";
 
 export function Projects({data}){
-  console.log(data)
 
   return(
     <section>
