@@ -5,7 +5,7 @@ import { Me } from '../components/Me';
 import { Projects } from '../components/Projects';
 import { Tecnologies } from '../components/Tecnologies';
 
-export default function Home({data}) {
+export default function Home({data, reposData}) {
 
   return (
     <div>
@@ -13,7 +13,7 @@ export default function Home({data}) {
       <Banner />
       <Tecnologies />
       <Me data={data} />
-      <Projects />
+      <Projects data={reposData}/>
     </div>
   )
 }
@@ -22,13 +22,16 @@ export async function getStaticProps(context) {
   const res = await fetch(`https://api.github.com/users/rodrigonahid`);
   const data = await res.json();
 
-  if (!data) {
+  const repos = await(fetch(`https://gh-pinned-repos.egoist.sh/?username=rodrigonahid`))
+  const reposData = await repos.json();
+  
+  if (!data || !reposData) {
     return {
       notFound: true,
     }
   }
 
   return {
-    props: { data }, // will be passed to the page component as props
+    props: { data, reposData }, // will be passed to the page component as props
   }
 }

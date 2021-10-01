@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export function Me({data}){
-  console.log(data)
+  
   return(
     <>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#60a5fa" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
@@ -33,25 +33,3 @@ export function Me({data}){
     </>
   )
 }
-
-// function ModuloSkills(){
-//   return(
-//     // <div class="modulo-skills">
-//     //   <div class="skills-left">
-//     //     <img src="assets/img/web-design.png" alt="web design">
-//     //     <h2>Front-end developer</h2>
-//     //     <p>Eu gosto de desenvolver aplicações do zero e de trazer ideias à vida dentro do browser.</p>
-//     //   </div>
-//     //   <div class="skills-center">
-//     //     <img src="assets/img/wordpress.svg" alt="wordpress">
-//     //     <h2>Wordpress Developer</h2>
-//     //     <p>Wordpress é um CMS com uma interface administrativa amigável permitindo editar facilmente seu conteúdo.</p>
-//     //   </div>
-//     //   <div class="skills-right">
-//     //     <img src="assets/img/web-programming.svg" alt="web programming">
-//     //     <h2>UI/UX Designer</h2>
-//     //     <p>Eu prezo por um conteúdo simples, moderno, responsivo</p>
-//     //   </div>
-//     // </div>
-//   )
-// }
