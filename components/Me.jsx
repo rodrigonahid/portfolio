@@ -17,8 +17,8 @@ export function Me({data}){
               Desenvolvedor web há 1 ano. Venho desenvolvendo aplicações web desde então. Me apaixonei pelo front-end quando conheci o CSS e pintar telas é meu hobbie.
             </p>
             <div className="mt-8">
-              <Link href="#">
-                <a className="inline bg-blue-500 text-white text-lg px-6 py-2 rounded font-bold shadow hover:shadow-lg transition">
+              <Link href="https://wa.me/5524981125127">
+                <a target="_blank" className="inline bg-blue-500 text-white text-lg px-6 py-2 rounded font-bold shadow hover:shadow-lg transition">
                   Me contrate!
                 </a>
               </Link>
