@@ -17,7 +17,7 @@ export function Banner(){
             </Link>
           </div>
           <div className="flex-1 hidden md:flex justify-center">
-            <Image src={"/astronaut.png"} width={400} height={400}  />
+            <Image src={"/astronaut.png"} width={400} height={400} alt="logo" />
           </div>
         </div>
       </div>

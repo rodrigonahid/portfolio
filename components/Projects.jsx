@@ -48,9 +48,9 @@ function ProjectItem({content, repo, link, language, languageColor}){
         <Link href={link}>
           <a target="_blank">
             <div className="relative">
-              <Image className="absolute rounded-md hover:bg-gray-400" src={`https://raw.githubusercontent.com/rodrigonahid/${repo}/master/thumbnail.png`} width={1920} height={1080} objectFit="cover" />
+              <Image className="absolute rounded-md hover:bg-gray-400" src={`https://raw.githubusercontent.com/rodrigonahid/${repo}/master/thumbnail.png`} width={1920} height={1080} objectFit="cover" alt={repo} />
               <span style={{height: '98%'}} className="opacity-0 transition rounded-md bg-gray-800 hover:opacity-100 hover:bg-opacity-90 absolute top-0 left-0 w-full z-10 flex items-center justify-center">
-                <Image src={ExternalImg} height={144} width={144} />
+                <Image src={ExternalImg} height={144} width={144} alt="external" />
               </span>
             </div>
           </a>

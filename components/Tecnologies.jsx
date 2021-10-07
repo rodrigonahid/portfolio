@@ -61,7 +61,7 @@ function TecnologyBlock({ image, name }){
   return(
     <div style={BlockStyle} className="p-8 m-4 shadow hover:shadow-lg transition inline-flex flex-col justify-center items-center bg-gray-50 rounded-md">
       <span className="block h-16 w-16">
-        <img src={image} />
+        <img src={image} alt={name} />
       </span>
       <h3 className="mt-8 text-2xl font-medium">{name}</h3>
     </div>
