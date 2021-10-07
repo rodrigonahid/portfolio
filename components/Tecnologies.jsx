@@ -13,14 +13,22 @@ export function Tecnologies() {
       name: 'React'
     },
     3: {
+      img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg',
+      name: 'Express'
+    },
+    4: {
       img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg',
       name: 'Sass'
     },
-    4: {
+    5: {
       img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg',
       name: 'Wordpress'
     },
-    5:{
+    6:{
+      img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
+      name: 'Firebase'
+    },
+    7:{
       img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg',
       name: 'Yarn'
     }
