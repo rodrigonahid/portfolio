@@ -33,6 +33,11 @@ class MyDocument extends Document {
           `,
             }}
           />
+          <title>Rodrigo Nahid</title>
+          <meta name="description" content="Me chamo Rodrigo Nahid, sou desenvolvedor Javascript com foco em React" />
+          <link rel="canonical" href="https://rodrigonahid.com.br" /> 
+          <meta name="keywords" content="rodrigo, nahid, desenvolvedor, dev, javascript, web" />
+          <meta name="robots" content="index, follow" /> 
         </Head>
         <body>
           <Main />
