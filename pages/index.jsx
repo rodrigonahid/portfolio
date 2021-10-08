@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import { Banner } from '../components/Banner';
 import { Header } from '../components/Header';
 import { Me } from '../components/Me';
@@ -9,6 +10,9 @@ export default function Home({data, reposData}) {
 
   return (
     <div>
+      <Head>
+        <title>Rodrigo Nahid</title>
+      </Head>
       <Header />
       <Banner />
       <Tecnologies />

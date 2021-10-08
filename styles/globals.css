@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.home-banner .container{
-  height: 60vh;
+@media only screen and (min-width: 768px){
+  .home-banner .container{  
+    height: 60vh;
+  }
 }
 
 .overflow-x-auto::-webkit-scrollbar{

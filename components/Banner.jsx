@@ -5,7 +5,7 @@ export function Banner(){
   return(
     <section>
       <div className="bg-blue-400 home-banner">
-        <div className="container mx-auto p-4 max-w-5xl flex items-center">
+        <div className="container mx-auto py-14 max-w-5xl flex items-center flex-col md:flex-row">
           <div className="flex-1">
             <h1 className="text-white text-2xl md:text-4xl font-bold">Oi, eu sou o Rodrigo,<br/> desenvolvedor front-end!</h1>
             <p className="mt-4 text-white text-xl md:text-2xl font-medium">E seja bem-vindo ao meu portfolio.</p>
@@ -16,8 +16,8 @@ export function Banner(){
               </a>
             </Link>
           </div>
-          <div className="flex-1 hidden md:flex justify-center">
-            <Image src={"/astronaut.png"} width={400} height={400} alt="logo" />
+          <div className="flex-1 flex justify-center mt-12 max-h-64 max-w-64 md:max-h-full md:max-w-full">
+            <Image className="rounded-2xl" src={"/avatar.svg"} width={400} height={400} alt="avatar" />
           </div>
         </div>
       </div>
