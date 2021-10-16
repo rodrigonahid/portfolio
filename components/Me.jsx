@@ -19,7 +19,7 @@ export function Me({data}){
             <div className="mt-8">
               <Link href="https://wa.me/5524981125127">
                 <a target="_blank" className="inline bg-blue-500 text-white text-lg px-6 py-2 rounded font-bold shadow hover:shadow-lg transition">
-                  Me contrate!
+                  Fale comigo!
                 </a>
               </Link>
             </div>
