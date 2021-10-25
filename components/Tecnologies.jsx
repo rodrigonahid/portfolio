@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Tecnologies() {
   const List = {
     0: {
@@ -60,8 +62,8 @@ function TecnologyBlock({ image, name }){
 
   return(
     <div style={BlockStyle} className="p-8 m-4 shadow hover:shadow-lg transition inline-flex flex-col justify-center items-center bg-gray-50 rounded-md">
-      <span className="block h-16 w-16">
-        <img src={image} alt={name} />
+      <span className="block">
+        <Image src={image} alt={name} height={64} width={64} />
       </span>
       <h3 className="mt-8 text-2xl font-medium">{name}</h3>
     </div>
