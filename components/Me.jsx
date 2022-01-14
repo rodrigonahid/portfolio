@@ -18,7 +18,7 @@ export function Me({data}){
               Nesse site mostro um pouco do meu trabalho. <br/>
               Essa página está desatualizada, uma nova versão está em construção: <br/>
               <Link href="https://portfolio-v2-vercel.vercel.app/" target="_blank">
-                <a>Clique aqui para acessar!</a>
+                <a className="text-blue-500">Clique aqui para acessar!</a>
               </Link>
             </p>
             <div className="mt-8">
