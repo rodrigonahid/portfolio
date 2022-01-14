@@ -15,7 +15,11 @@ export function Me({data}){
             <h3 className="text-4xl text-gray-700 font-semibold mb-4">Rodrigo Nahid</h3>
             <p className="text-lg font-medium">
               Desenvolvedor web há alguns anos. Venho desenvolvendo aplicações web desde então. Me apaixonei pelo front-end quando conheci o CSS, pintar telas é meu hobbie.
-              Nesse site mostro um pouco do meu trabalho.
+              Nesse site mostro um pouco do meu trabalho. <br/>
+              Essa página está desatualizada, uma nova versão está em construção: <br/>
+              <Link href="https://portfolio-v2-vercel.vercel.app/" target="_blank">
+                <a>Clique aqui para acessar!</a>
+              </Link>
             </p>
             <div className="mt-8">
               <Link href="https://wa.me/5524981125127">
