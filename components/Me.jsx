@@ -14,7 +14,8 @@ export function Me({data}){
           <div className="flex-1 pr-8 flex flex-col justify-center">
             <h3 className="text-4xl text-gray-700 font-semibold mb-4">Rodrigo Nahid</h3>
             <p className="text-lg font-medium">
-              Desenvolvedor web há 1 ano. Venho desenvolvendo aplicações web desde então. Me apaixonei pelo front-end quando conheci o CSS e pintar telas é meu hobbie.
+              Desenvolvedor web há alguns anos. Venho desenvolvendo aplicações web desde então. Me apaixonei pelo front-end quando conheci o CSS, pintar telas é meu hobbie.
+              Nesse site mostro um pouco do meu trabalho.
             </p>
             <div className="mt-8">
               <Link href="https://wa.me/5524981125127">
